@@ -1,0 +1,19 @@
+body {
+    border: 1px solid black;
+}
+
+body, ul, li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li {
+    width: 33%;
+    margin-bottom: 10px;
+}
+
+img {
+    border: 5px solid black;
+}
+
