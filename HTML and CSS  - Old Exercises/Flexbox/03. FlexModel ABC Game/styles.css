@@ -1,0 +1,57 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap     ;
+    flex-direction: column;
+    max-width: 15vw;
+    height: 35rem;
+    align-items: center;
+}
+
+.container span {
+    order: 50;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-bottom: 39px;
+    margin-right: 10px;
+}
+
+.container :nth-child(11) {
+    order: 1;
+}
+
+.container :nth-child(2) {
+    order: 2;
+}
+
+.container :nth-child(12) {
+    order: 3;
+}
+
+.container :nth-child(4) {
+    order: 4;
+}
+
+.container :nth-child(8) {
+    order: 5;
+}
+
+.container :nth-child(9) {
+    border: 1px solid black;
+    order: 6;
+}
+
+.container :nth-child(6) {
+    order: 7;
+}
+
+.container :nth-child(5) {
+    order: 8;
+}
+
+
