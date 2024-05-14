@@ -1,0 +1,53 @@
+img {
+    float: right;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+h2 {
+    width: 100%;
+}
+
+.split-text {
+    flex-grow: 1;
+    display: flex;
+    gap: 3%;
+}
+
+.left, .right {
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+.third-heading img {
+    float: left;
+    margin-right: 15px;
+}
+
+.first-aside {
+    width: 100%;
+}
+
+body {
+    background-color: rgb(238, 238, 238)
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+ul li a{
+    color: rgb(0, 153, 0);
+}
+
+h2 {
+    font-family: Georgia, serif;
+}
