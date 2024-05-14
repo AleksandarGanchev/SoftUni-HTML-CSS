@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(238, 238, 238);
+    height: 100vw;
+    font-family: Helvetica, sans-serif;
+}
+
+h1, h2, hr {
+   flex-basis: 100%;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+}
