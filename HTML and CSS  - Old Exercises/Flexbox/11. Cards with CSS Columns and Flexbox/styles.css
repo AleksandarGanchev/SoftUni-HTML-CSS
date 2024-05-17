@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    box-shadow: 0 0 2px 2px lightgray;
+    margin-bottom: 2.5vw;
+}
+
+.masonry {
+    display: flex;
+    gap: 2.5vw;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.flex .card {
+    width: 30%;
+    gap: 2.5vw;
+}
+
