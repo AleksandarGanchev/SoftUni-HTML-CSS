@@ -1,0 +1,36 @@
+body {
+    font-family: "Inter";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid black;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    padding: 100px 20px;
+}
+
+.text button {
+    padding: 10px 10px;
+}
+
+.text .green-button {
+    background-color: green;
+} 
+
+.text h1 {
+    font-size: 50px;
+
+}
+
+.text .green-button:hover {
+    background-color: black;
+    color: white;
+    cursor: none;
+} 
