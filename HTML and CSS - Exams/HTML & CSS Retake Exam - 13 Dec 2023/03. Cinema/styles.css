@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body {
+    font-family: Ubuntu;
+    border: 1px solid black;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header span:nth-of-type(1){
+    color: #313131;
+}
+
+header span:nth-of-type(2){
+    color: #808080;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first span:nth-of-type(1) {
+    align-self: center;
+    padding-right: 15px;
+}
+
+.first span:nth-of-type(2) {
+    align-self:last baseline;
+    padding-left: 15px;
+}
+
+header .tags {
+    display: flex;
+    color: red;
+    gap: 5px;
+}
+
+header .tags a {
+    padding: 10px;
+    text-decoration: none;
+    background-color: red;
+    background-color: #ececec;
+    color: #696969;
+}
+
+header .tags a:nth-of-type(1):hover {
+    cursor: pointer;
+    background-color: #57dbb1;
+    color: black;
+} 
+
+main img {
+    width: 100%;
+}
+
+.text {
+    padding: 40px 80px;
+    background-color: #57dbb1;
+}
+
+.text p {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    text-align: center;
+}
+
+
+.info {
+    display: flex;
+    padding: 40px 100px;
+    background-color: #343434;
+}
+
+.info i {
+    border: 1px solid black;
+    padding: 25px;
+    background-color: #57dbb1;
+    color: white;
+}
+ 
+.items {
+    text-align: center;
+}
+
+hr {
+    max-width: 90%;
+}
+
+.items p:nth-of-type(1) {
+    color: white;
+}
+
+.items p:nth-of-type(2) {
+    color: #696969;;
+}
+
+.blank {
+    text-align: center;
+    padding: 60px 120px;
+}
+
+.blank a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px 15px;
+    background-color: #974d1a;
+    color: white;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #343434;
+}
+
+.last {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 100px;
+    background-color: #343434;
+    gap: 80px ;
+}
+
+.elements p:nth-of-type(1) {
+    color: white;
+    text-align: center;
+}
+
+.elements p:nth-of-type(2) {
+    color:#696969;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #57dbb1;
+    padding: 30px 60px;
+}
+
